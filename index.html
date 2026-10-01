@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#8f1746">
+<meta name="description" content="আনায়া চুড়ি ঘর — চুড়ি, গয়না, হেয়ার অ্যাক্সেসরিজ, বিউটি প্রোডাক্ট এবং আরও অনেক কিছু।">
+<title>আনায়া চুড়ি ঘর — Official Links</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<style>
+:root{
+  --wine:#97164e;
+  --pink:#df3f7d;
+  --gold:#d9a441;
+  --cream:#fff9f4;
+  --ink:#32151f;
+  --muted:#80636d;
+  --line:rgba(151,22,78,.14);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; min-height:100vh; overflow-x:hidden;
+  color:var(--ink);
+  font-family:"Hind Siliguri",sans-serif;
+  background:
+    radial-gradient(circle at 8% 12%,rgba(223,63,125,.14),transparent 28%),
+    radial-gradient(circle at 92% 18%,rgba(217,164,65,.13),transparent 25%),
+    radial-gradient(circle at 50% 100%,rgba(151,22,78,.10),transparent 34%),
+    linear-gradient(145deg,#fff8f7,#fff,#fff4f8);
+}
+body:before,body:after{
+  content:"";position:fixed;border-radius:50%;pointer-events:none;filter:blur(2px);z-index:-1;
+}
+body:before{width:260px;height:260px;background:rgba(223,63,125,.07);left:-100px;top:42%;animation:float 8s ease-in-out infinite}
+body:after{width:320px;height:320px;background:rgba(217,164,65,.06);right:-130px;top:8%;animation:float 10s ease-in-out infinite reverse}
+@keyframes float{50%{transform:translateY(-22px) scale(1.04)}}
+
+.shell{width:min(100%,560px);margin:auto;padding:20px 15px 38px}
+.card{
+  position:relative; overflow:hidden;
+  border:1px solid rgba(255,255,255,.9);
+  border-radius:34px;
+  background:rgba(255,255,255,.76);
+  backdrop-filter:blur(18px);
+  box-shadow:0 24px 70px rgba(82,14,42,.14);
+}
+.card:before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(255,255,255,.75),transparent 42%,rgba(223,63,125,.035));
+  pointer-events:none;
+}
+.hero{position:relative;text-align:center;padding:30px 20px 19px}
+.logo-ring{
+  width:156px;height:156px;margin:auto;padding:5px;border-radius:50%;
+  background:conic-gradient(from 210deg,var(--wine),var(--gold),#fff0b4,var(--pink),var(--wine));
+  box-shadow:0 12px 35px rgba(151,22,78,.20);
+  animation:halo 7s linear infinite;
+}
+@keyframes halo{to{transform:rotate(360deg)}}
+.logo{
+  width:100%;height:100%;object-fit:cover;border-radius:50%;
+  display:block;border:4px solid #fff;animation:counter 7s linear infinite;
+}
+@keyframes counter{to{transform:rotate(-360deg)}}
+
+.badge{
+  display:inline-flex;align-items:center;gap:7px;margin-top:17px;
+  padding:6px 13px;border-radius:999px;
+  background:rgba(151,22,78,.07);border:1px solid var(--line);
+  color:var(--wine);font-size:12px;font-weight:700;letter-spacing:.2px;
+}
+.dot{width:7px;height:7px;border-radius:50%;background:#20a866;box-shadow:0 0 0 5px rgba(32,168,102,.10)}
+h1{
+  margin:11px 0 1px;
+  font-family:"Noto Serif Bengali",serif;
+  font-size:clamp(31px,8vw,42px);line-height:1.22;
+  font-weight:800;
+  background:linear-gradient(90deg,#87123f,#d12669,#9d174d);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.tagline{
+  margin:7px 0 0;font-family:"Noto Serif Bengali",serif;
+  font-size:15px;font-weight:600;color:#72515c;
+}
+.address{
+  margin:9px auto 0;max-width:430px;color:var(--muted);
+  font-size:13px;line-height:1.65;
+}
+
+.quick{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:9px;
+  padding:7px 17px 18px;
+}
+.quick a{
+  text-decoration:none;color:var(--wine);
+  padding:10px 6px;text-align:center;border-radius:17px;
+  background:linear-gradient(180deg,#fff,#fff7fa);
+  border:1px solid var(--line);font-size:12px;font-weight:700;
+  transition:.22s;
+}
+.quick a:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(151,22,78,.10)}
+.qicon{display:block;font-size:20px;margin-bottom:3px}
+
+.links{padding:0 17px;display:grid;gap:12px}
+.link{
+  position:relative;display:flex;align-items:center;gap:13px;
+  min-height:72px;padding:10px 13px;text-decoration:none;color:var(--ink);
+  border-radius:20px;background:rgba(255,255,255,.88);
+  border:1px solid rgba(151,22,78,.11);
+  box-shadow:0 8px 24px rgba(80,20,40,.055);
+  overflow:hidden;transition:transform .22s,box-shadow .22s,border-color .22s;
+}
+.link:after{
+  content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.85),transparent);
+  transform:skewX(-18deg);transition:.6s;
+}
+.link:hover{transform:translateY(-3px);box-shadow:0 13px 28px rgba(80,20,40,.11);border-color:rgba(151,22,78,.22)}
+.link:hover:after{left:130%}
+.icon{
+  width:48px;height:48px;flex:0 0 48px;border-radius:16px;display:grid;place-items:center;
+  font-size:21px;background:linear-gradient(145deg,#fff1f6,#ffe5ef);
+  border:1px solid rgba(223,63,125,.15);
+}
+.info{flex:1;min-width:0}.icon .fa-facebook-f{color:#1877f2}.icon .fa-tiktok{color:#111}.icon .fa-whatsapp{color:#25d366}.icon .fa-phone{color:#b01857}.icon .fa-location-dot{color:#d23a63}
+.title{display:block;font-family:"Noto Serif Bengali",serif;font-size:16px;font-weight:800;line-height:1.35}
+.small{display:block;color:#8b6d76;font-size:12px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.arrow{
+  width:32px;height:32px;border-radius:50%;display:grid;place-items:center;
+  color:var(--wine);background:#fff5f8;font-size:22px;transition:.2s;
+}
+.link:hover .arrow{transform:translateX(3px);background:#ffe9f1}
+
+.section-title{
+  padding:24px 18px 10px;text-align:center;
+  font-family:"Noto Serif Bengali",serif;font-weight:800;color:#681435;font-size:17px;
+}
+.footer{
+  text-align:center;padding:20px 16px 25px;color:#967680;font-size:12px;
+}
+.footer strong{color:var(--wine)}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(32,168,102,.0)}}
+@media(max-width:390px){
+  .shell{padding:10px 10px 25px}.hero{padding-top:22px}
+  .logo-ring{width:136px;height:136px}.links{padding:0 12px}.quick{padding-left:12px;padding-right:12px}
+}
+</style>
+</head>
+
+<body>
+<main class="shell">
+  <section class="card">
+
+    <header class="hero">
+      <div class="logo-ring"><img class="logo" src="logo.png" alt="আনায়া চুড়ি ঘর"></div>
+      <div class="badge"><span class="dot pulse"></span> আমাদের অফিসিয়াল অনলাইন লিংক</div>
+      <h1>আনায়া চুড়ি ঘর</h1>
+      <p class="tagline">সাজুক প্রতিটি মুহূর্তে, আপনার স্টাইলে...</p>
+      <div class="address">
+        উল্লাবাজার (শাহ্ শপিং কমপ্লেক্স), ইউনিয়ন পরিষদ রোড<br>
+        ভরতখালী, সাঘাটা, গাইবান্ধা
+      </div>
+    </header>
+
+    <nav class="quick" aria-label="দ্রুত যোগাযোগ">
+      <a href="tel:+8801318098176"><span class="qicon"><i class="fa-solid fa-phone"></i></span>কল করুন</a>
+      <a href="https://wa.me/8801318098176" target="_blank" rel="noopener"><span class="qicon"><i class="fa-brands fa-whatsapp"></i></span>WhatsApp</a>
+      <a href="https://www.google.com/maps?q=25.187946,89.580944" target="_blank" rel="noopener"><span class="qicon"><i class="fa-solid fa-location-dot"></i></span>লোকেশন</a>
+    </nav>
+
+    <div class="section-title">আমাদের সাথে যুক্ত থাকুন</div>
+
+    <div class="links">
+      <a class="link" href="https://www.facebook.com/aneyachurighar" target="_blank" rel="noopener">
+        <span class="icon"><i class="fa-brands fa-facebook-f"></i></span>
+        <span class="info"><span class="title">Facebook Page</span><span class="small">আনায়া চুড়ি ঘর — নতুন পণ্য ও আপডেট</span></span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link" href="https://www.tiktok.com/@shipon.cosmetik" target="_blank" rel="noopener">
+        <span class="icon"><i class="fa-brands fa-tiktok"></i></span>
+        <span class="info"><span class="title">TikTok</span><span class="small">@shipon.cosmetik — ভিডিও ও নতুন কালেকশন</span></span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link" href="https://wa.me/8801318098176" target="_blank" rel="noopener">
+        <span class="icon"><i class="fa-brands fa-whatsapp"></i></span>
+        <span class="info"><span class="title">WhatsApp-এ যোগাযোগ</span><span class="small">অর্ডার বা তথ্যের জন্য মেসেজ করুন</span></span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link" href="tel:+8801318098176">
+        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+        <span class="info"><span class="title">সরাসরি ফোন করুন</span><span class="small">01318-098176</span></span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link" href="https://www.google.com/maps?q=25.187946,89.580944" target="_blank" rel="noopener">
+        <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+        <span class="info"><span class="title">দোকানের ঠিকানা ও লোকেশন</span><span class="small">Google Maps-এ পথ দেখুন</span></span>
+        <span class="arrow">›</span>
+      </a>
+    </div>
+
+    <footer class="footer">
+      আপনার পছন্দ, আপনার স্টাইল — <strong>আনায়া চুড়ি ঘর</strong> 💗
+    </footer>
+  </section>
+</main>
+</body>
+</html>
